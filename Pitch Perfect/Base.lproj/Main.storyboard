@@ -38,12 +38,8 @@
                                 <state key="normal" image="stop">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="176" y="461" width="50" height="129"/>
-                                </variation>
                                 <connections>
                                     <action selector="stopRecordAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dVI-ns-1O4"/>
-                                    <segue destination="XNz-hd-29b" kind="show" id="xdy-sC-alD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,6 +97,7 @@
                         <outlet property="recordButton" destination="XNg-gR-U6q" id="bFL-Wv-She"/>
                         <outlet property="recordingInProgress" destination="jkk-El-R5y" id="txs-58-EZx"/>
                         <outlet property="stopButton" destination="0kB-6e-gGn" id="Yp1-cK-Y0n"/>
+                        <segue destination="XNz-hd-29b" kind="show" identifier="stopRecording" id="AZl-Pf-IZT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

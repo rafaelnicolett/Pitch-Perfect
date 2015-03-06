@@ -2,13 +2,14 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AJ7-fj-U8Q">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Record-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="RecordSoundsViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -37,6 +38,9 @@
                                 <state key="normal" image="stop">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="176" y="461" width="50" height="129"/>
+                                </variation>
                                 <connections>
                                     <action selector="stopRecordAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dVI-ns-1O4"/>
                                     <segue destination="XNz-hd-29b" kind="show" id="xdy-sC-alD"/>
@@ -159,10 +163,10 @@
                                 <exclude reference="e9f-Vt-MUK"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="TfW-20-VPK"/>
-                                <exclude reference="VQ0-pn-5Yb"/>
                                 <exclude reference="8pq-AK-Qds"/>
                                 <exclude reference="Kht-Le-dxA"/>
+                                <exclude reference="TfW-20-VPK"/>
+                                <exclude reference="VQ0-pn-5Yb"/>
                                 <exclude reference="GgG-zU-BsF"/>
                                 <exclude reference="i1G-ZV-9DF"/>
                             </mask>
@@ -174,10 +178,10 @@
                                 <include reference="e9f-Vt-MUK"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="TfW-20-VPK"/>
-                                <include reference="VQ0-pn-5Yb"/>
                                 <include reference="8pq-AK-Qds"/>
                                 <include reference="Kht-Le-dxA"/>
+                                <include reference="TfW-20-VPK"/>
+                                <include reference="VQ0-pn-5Yb"/>
                                 <include reference="GgG-zU-BsF"/>
                                 <include reference="i1G-ZV-9DF"/>
                             </mask>

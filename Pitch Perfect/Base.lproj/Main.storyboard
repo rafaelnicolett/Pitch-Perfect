@@ -143,6 +143,24 @@
                                     <action selector="stopSounds:" destination="XNz-hd-29b" eventType="touchUpInside" id="7hs-GE-1Pa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VG6-Cq-Sp6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="chipmunk">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playChipMunkAudio:" destination="XNz-hd-29b" eventType="touchUpInside" id="c1d-Pl-uW9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIG-EO-2Aj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="darth">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAudioDarthVader:" destination="XNz-hd-29b" eventType="touchUpInside" id="QT0-Mv-IMX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.39315322260000002" green="0.39625405790000001" blue="0.93761837120000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -152,18 +170,28 @@
                             <constraint firstItem="OxW-qI-nJE" firstAttribute="top" secondItem="0BD-NW-0bp" secondAttribute="bottom" constant="50" id="TfW-20-VPK"/>
                             <constraint firstItem="OxW-qI-nJE" firstAttribute="leading" secondItem="t4a-3W-7pW" secondAttribute="leadingMargin" constant="30" id="VQ0-pn-5Yb"/>
                             <constraint firstAttribute="centerX" secondItem="e9f-Vt-MUK" secondAttribute="centerX" id="i1G-ZV-9DF"/>
+                            <constraint firstItem="VG6-Cq-Sp6" firstAttribute="top" secondItem="OxW-qI-nJE" secondAttribute="bottom" constant="74" id="kbS-pJ-h69"/>
+                            <constraint firstItem="cIG-EO-2Aj" firstAttribute="top" secondItem="NAw-XT-ANp" secondAttribute="bottom" constant="74" id="pGd-mw-ZYL"/>
+                            <constraint firstItem="VG6-Cq-Sp6" firstAttribute="leading" secondItem="t4a-3W-7pW" secondAttribute="leadingMargin" constant="30" id="ryL-82-rPa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cIG-EO-2Aj" secondAttribute="trailing" constant="30" id="vbD-lr-woy"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="OxW-qI-nJE"/>
                                 <exclude reference="NAw-XT-ANp"/>
                                 <exclude reference="e9f-Vt-MUK"/>
+                                <exclude reference="VG6-Cq-Sp6"/>
+                                <exclude reference="cIG-EO-2Aj"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="8pq-AK-Qds"/>
                                 <exclude reference="Kht-Le-dxA"/>
                                 <exclude reference="TfW-20-VPK"/>
                                 <exclude reference="VQ0-pn-5Yb"/>
+                                <exclude reference="kbS-pJ-h69"/>
+                                <exclude reference="ryL-82-rPa"/>
+                                <exclude reference="pGd-mw-ZYL"/>
+                                <exclude reference="vbD-lr-woy"/>
                                 <exclude reference="GgG-zU-BsF"/>
                                 <exclude reference="i1G-ZV-9DF"/>
                             </mask>
@@ -173,12 +201,18 @@
                                 <include reference="OxW-qI-nJE"/>
                                 <include reference="NAw-XT-ANp"/>
                                 <include reference="e9f-Vt-MUK"/>
+                                <include reference="VG6-Cq-Sp6"/>
+                                <include reference="cIG-EO-2Aj"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="8pq-AK-Qds"/>
                                 <include reference="Kht-Le-dxA"/>
                                 <include reference="TfW-20-VPK"/>
                                 <include reference="VQ0-pn-5Yb"/>
+                                <include reference="kbS-pJ-h69"/>
+                                <include reference="ryL-82-rPa"/>
+                                <include reference="pGd-mw-ZYL"/>
+                                <include reference="vbD-lr-woy"/>
                                 <include reference="GgG-zU-BsF"/>
                                 <include reference="i1G-ZV-9DF"/>
                             </mask>
@@ -209,6 +243,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chipmunk" width="100" height="100"/>
+        <image name="darth" width="100" height="100"/>
         <image name="microphone" width="100" height="100"/>
         <image name="rabbit" width="100" height="100"/>
         <image name="snail" width="100" height="100"/>

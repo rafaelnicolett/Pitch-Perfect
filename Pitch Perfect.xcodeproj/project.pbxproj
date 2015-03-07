@@ -15,6 +15,7 @@
 		59168A471AA6964E00A74FA6 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59168A461AA6964E00A74FA6 /* Pitch_PerfectTests.swift */; };
 		591A547E1AA938D80086469C /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A547D1AA938D70086469C /* PlaySoundsViewController.swift */; };
 		591A54801AA93DB00086469C /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 591A547F1AA93DB00086469C /* movie_quote.mp3 */; };
+		59E300B91AAA748E004BDF37 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E300B81AAA748E004BDF37 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		59168A461AA6964E00A74FA6 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
 		591A547D1AA938D70086469C /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		591A547F1AA93DB00086469C /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../movie_quote.mp3; sourceTree = "<group>"; };
+		59E300B81AAA748E004BDF37 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				59168A301AA6964E00A74FA6 /* AppDelegate.swift */,
 				59168A321AA6964E00A74FA6 /* RecordSoundsViewController.swift */,
 				59168A341AA6964E00A74FA6 /* Main.storyboard */,
+				59E300B81AAA748E004BDF37 /* RecordedAudio.swift */,
 				591A547D1AA938D70086469C /* PlaySoundsViewController.swift */,
 				59168A371AA6964E00A74FA6 /* Images.xcassets */,
 				59168A391AA6964E00A74FA6 /* LaunchScreen.xib */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E300B91AAA748E004BDF37 /* RecordedAudio.swift in Sources */,
 				59168A331AA6964E00A74FA6 /* RecordSoundsViewController.swift in Sources */,
 				591A547E1AA938D80086469C /* PlaySoundsViewController.swift in Sources */,
 				59168A311AA6964E00A74FA6 /* AppDelegate.swift in Sources */,
